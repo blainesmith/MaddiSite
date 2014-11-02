@@ -1,0 +1,4 @@
+F:\Projects\MaddiSmithSite\MaddiSmith.Data\bin\Debug\MaddiSmith.Data.dll
+F:\Projects\MaddiSmithSite\MaddiSmith.Data\bin\Debug\MaddiSmith.Data.pdb
+F:\Projects\MaddiSmithSite\MaddiSmith.Data\obj\Debug\MaddiSmith.Data.dll
+F:\Projects\MaddiSmithSite\MaddiSmith.Data\obj\Debug\MaddiSmith.Data.pdb

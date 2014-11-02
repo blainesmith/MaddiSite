@@ -1,0 +1,37 @@
+﻿@using System.Web.Optimization
+
+<!-- App Bar -------------------------------------- -->
+<div data-ng-controller="appCtrl" data-ng-cloak="">
+
+	<!-- Nav -->
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="#top">Top</a></li>
+			<li><a href="#work">Work</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+
+</div>
+
+
+
+<!--[if lt IE 9]>
+	<div class="alert affix" style="box-shadow: -5px 2px 10px #888888; right: 0; z-index: 300;">
+		<div class="warning-small-icon-c"></div>
+		<strong>Warning:</strong> This site requires Internet Explorer 9 or higher.        
+	</div>
+<![endif]-->
+
+<div ng-view="" class="container-content-padded"></div>
+
+@section Scripts
+{
+	@Scripts.Render("~/Site/Startup")
+	@Scripts.Render("~/Site/Controllers")
+	@Scripts.Render("~/Site/Dialogs")
+	@Scripts.Render("~/Site/Directives")
+	@*@Scripts.Render("~/Site/Filters")*@
+	@Scripts.Render("~/Site/Services")
+}
